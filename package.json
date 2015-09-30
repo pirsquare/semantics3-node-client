@@ -1,0 +1,27 @@
+{
+  "name": "semantics3-node-client",
+  "version": "0.1.0",
+  "description": "Semantics3 api client in nodejs",
+  "keywords": [
+    "semantics3",
+    "api",
+    "client"
+  ],
+  "author": "Ryan Liao <pirsquare.ryan@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pirsquare/semantics3-node-client.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --recursive"
+  },
+  "dependencies": {
+    "oauth": "^0.9.14"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1"
+  }
+}
